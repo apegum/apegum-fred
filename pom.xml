@@ -26,11 +26,10 @@
 	</distributionManagement>
 
 	<scm>
-	<developerConnection>scm:git:git@github.com:apegum/apegum-fred.git
-	</developerConnection>
-	<tag>HEAD</tag>
+		<developerConnection>scm:git:git@github.com:apegum/apegum-fred.git</developerConnection>
+		<tag>HEAD</tag>
 	</scm>
-	
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<db.driver>com.mysql.Driver</db.driver>
@@ -54,6 +53,10 @@
 			</testResource>
 		</testResources>
 		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>

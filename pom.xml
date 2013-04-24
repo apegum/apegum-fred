@@ -4,7 +4,7 @@
 
 	<groupId>com.xiam</groupId>
 	<artifactId>apegum</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 
 	<name>${project.artifactId}-foo</name>

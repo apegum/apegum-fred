@@ -11,7 +11,7 @@
 	<url>http://www.xiam.com</url>
 	<description>This is the ${project.groupId}, ${project.artifactId} project from  ${project.url}</description>
 
-	<distributionManagement>
+<!-- 	<distributionManagement>
 		<repository>
 			<id>local-releases</id>
 			<name>Local Nexus Releases @ 8091</name>
@@ -22,7 +22,7 @@
 			<name>Local Nexus Snapshots @ 8091</name>
 			<url>http://localhost:8091/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 	<scm>
 		<developerConnection>scm:git:git@github.com:apegum/apegum-fred.git</developerConnection>
